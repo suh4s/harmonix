@@ -1,0 +1,43 @@
+# Task ID: 7
+# Title: Personality Selection Interface
+# Status: pending
+# Dependencies: None
+# Priority: high
+# Description: Implement personality selection and management interface
+# Details:
+Create the interface for browsing, selecting, and customizing AI personalities for consultation. Implement personality profiles, selection workflow, and integration with the LangGraph-powered AI engine. Use ShadcN UI for consistent design.
+
+# Test Strategy:
+Unit tests for personality components, user testing for selection workflow, integration tests with AI engine.
+
+# Subtasks:
+## 7.1. Personality Browser [pending]
+### Dependencies: None
+### Description: Create browsable library of AI personalities
+### Details:
+Implement visual interface for browsing available personalities with filtering, categorization, and search capabilities. Use ShadcN UI components for cards, filters, and navigation.
+
+## 7.2. Personality Profile Components [pending]
+### Dependencies: None
+### Description: Create detailed personality profile display
+### Details:
+Implement components for displaying personality details, expertise, thinking style, and example insights in an informative and engaging way. Use ShadcN UI for consistent design.
+
+## 7.3. Selection and Configuration Interface [pending]
+### Dependencies: None
+### Description: Create personality selection workflow
+### Details:
+Implement interface for selecting, combining, and configuring personalities for a consultation session. Create interactive selection experience with ShadcN UI.
+
+## 7.4. Custom Personality Creator (Basic) [pending]
+### Dependencies: None
+### Description: Implement basic custom personality creation
+### Details:
+Create interface for defining basic custom personalities with expertise, thinking style, and background attributes. Integrate with LangGraph workflows for personality simulation.
+
+## 7.5. Personality Data Management [pending]
+### Dependencies: None
+### Description: Implement backend services for personality data
+### Details:
+Create FastAPI endpoints and services for storing, retrieving, and managing personality data including presets and user-created personalities. Integrate with MCP for database access.
+

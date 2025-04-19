@@ -1,0 +1,31 @@
+# Task ID: 11
+# Title: Export and Sharing Features
+# Status: pending
+# Dependencies: None
+# Priority: medium
+# Description: Implement export and sharing capabilities
+# Details:
+Create export functionality that allows users to extract insights and plans in various formats for external use and sharing. Implement with Next.js/React frontend and FastAPI backend.
+
+# Test Strategy:
+Unit tests for export components, format validation for exported documents, user testing for sharing workflows.
+
+# Subtasks:
+## 11.1. Insight Export Functionality [pending]
+### Dependencies: None
+### Description: Implement insight export in various formats
+### Details:
+Create system for exporting insights as PDF, DOCX, or plain text with appropriate formatting and organization. Implement with client-side and server-side export capabilities.
+
+## 11.2. Plan Export Features [pending]
+### Dependencies: None
+### Description: Implement plan export functionality
+### Details:
+Create export system for action plans and prioritized suggestions in formats suitable for project management. Implement with ShadcN UI components and FastAPI endpoints.
+
+## 11.3. Basic Sharing Capabilities [pending]
+### Dependencies: None
+### Description: Implement basic sharing features
+### Details:
+Create simple sharing functionality for consulting sessions and insights via link or email. Implement with Next.js API routes and FastAPI services.
+

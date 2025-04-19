@@ -1,0 +1,31 @@
+# Task ID: 10
+# Title: Project and Session Management
+# Status: pending
+# Dependencies: None
+# Priority: medium
+# Description: Implement project organization and session history features
+# Details:
+Create the project management system that allows users to organize consultation sessions, track history, and manage ongoing projects. Implement with Next.js/React frontend and FastAPI backend with MCP for data persistence.
+
+# Test Strategy:
+Integration tests for project workflows, unit tests for project components, user testing for organization features.
+
+# Subtasks:
+## 10.1. Project Creation and Management [pending]
+### Dependencies: None
+### Description: Implement project creation and management features
+### Details:
+Create interface with ShadcN UI components and FastAPI services for creating, editing, and organizing projects. Implement project metadata management through MCP.
+
+## 10.2. Session History Display [pending]
+### Dependencies: None
+### Description: Create session history interface
+### Details:
+Implement interface for viewing past consultation sessions with filtering, search, and organization capabilities using ShadcN UI components and Next.js data fetching.
+
+## 10.3. Project Organization Features [pending]
+### Dependencies: None
+### Description: Implement project organization capabilities
+### Details:
+Create features for organizing sessions within projects including tagging, categorization, and relationship management. Implement with ShadcN UI and MCP data persistence.
+

@@ -1,0 +1,43 @@
+# Task ID: 8
+# Title: Consultation Session Engine Integration
+# Status: pending
+# Dependencies: None
+# Priority: high
+# Description: Integrate frontend with LangGraph-powered consultation engine
+# Details:
+Connect the Next.js frontend, FastAPI backend, and LangGraph AI components to create a complete consultation workflow. Implement session creation, processing with LangGraph workflows, status tracking, and result handling. Ensure proper LangSmith observability.
+
+# Test Strategy:
+Integration tests for complete consultation flow, performance testing for concurrent sessions, reliability testing for long-running consultations.
+
+# Subtasks:
+## 8.1. Consultation Session Creation [pending]
+### Dependencies: None
+### Description: Implement consultation session creation flow
+### Details:
+Create interface and FastAPI backend services for initiating a new consultation session with selected content and personalities. Implement LangGraph workflow initialization.
+
+## 8.2. LangGraph Workflow Integration [pending]
+### Dependencies: None
+### Description: Implement LangGraph workflow execution for consultations
+### Details:
+Create FastAPI endpoints and services for executing LangGraph workflows that power the consultation process. Implement proper error handling and retry mechanisms.
+
+## 8.3. Processing Status Tracking [pending]
+### Dependencies: None
+### Description: Implement real-time processing status tracking
+### Details:
+Create system for tracking and displaying LangGraph workflow status in real-time with appropriate feedback to the user. Implement websocket or polling mechanism for frontend updates.
+
+## 8.4. LangSmith Monitoring Integration [pending]
+### Dependencies: None
+### Description: Implement comprehensive monitoring of consultation sessions
+### Details:
+Configure detailed LangSmith tracing for consultation workflows to enable debugging, optimization, and quality monitoring of the AI processing.
+
+## 8.5. Results Processing and Storage [pending]
+### Dependencies: None
+### Description: Create system for processing and storing consultation results
+### Details:
+Implement services for processing LangGraph workflow outputs into structured consultation results and storing them for future access using MCP database integration.
+

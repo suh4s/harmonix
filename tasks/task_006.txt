@@ -1,0 +1,37 @@
+# Task ID: 6
+# Title: Document and Idea Upload System
+# Status: pending
+# Dependencies: None
+# Priority: high
+# Description: Implement document and text input system
+# Details:
+Create the document upload and text input system that allows users to submit content for consultation. Implement file handling, text editing, content preview, and integration with the backend storage. Use ShadcN UI components for the interface.
+
+# Test Strategy:
+Unit tests for upload components, integration tests for file handling, performance tests for large document uploads.
+
+# Subtasks:
+## 6.1. Document Upload Interface [pending]
+### Dependencies: None
+### Description: Create drag-and-drop document upload interface with ShadcN
+### Details:
+Implement drag-and-drop file upload with ShadcN UI components. Add progress indication, file type validation, and size limits. Integrate with backend storage API.
+
+## 6.2. Rich Text Editor Integration [pending]
+### Dependencies: None
+### Description: Integrate rich text editor for direct idea input
+### Details:
+Implement rich text editor (compatible with Next.js/React) for direct idea input with formatting, saving, and content management. Ensure proper styling and integration with ShadcN design system.
+
+## 6.3. Content Preview and Management [pending]
+### Dependencies: None
+### Description: Create content preview and management interface
+### Details:
+Implement content preview for uploaded documents and text entries using ShadcN components. Create interface for organizing and managing uploaded content.
+
+## 6.4. Backend Document Processing [pending]
+### Dependencies: None
+### Description: Implement document processing with LangChain
+### Details:
+Create backend services for processing uploaded documents using LangChain/LangGraph. Implement text extraction, chunking, and preparation for AI analysis with proper LangSmith tracing.
+

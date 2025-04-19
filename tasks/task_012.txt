@@ -1,0 +1,37 @@
+# Task ID: 12
+# Title: Basic Planning Tool
+# Status: pending
+# Dependencies: None
+# Priority: medium
+# Description: Implement planning tool for organizing insights into action items
+# Details:
+Create the planning tool that helps users transform consultation insights into actionable plans with priorities and structure. Implement as a LangGraph workflow with Next.js/React frontend and FastAPI backend.
+
+# Test Strategy:
+User testing for planning workflow, unit tests for planning components, integration tests for plan storage and retrieval.
+
+# Subtasks:
+## 12.1. Insight to Action Item Conversion [pending]
+### Dependencies: None
+### Description: Create system for converting insights to action items
+### Details:
+Implement interface and LangGraph workflow for transforming selected insights into structured action items for planning. Use ShadcN UI components for the interface.
+
+## 12.2. Plan Organization Interface [pending]
+### Dependencies: None
+### Description: Create plan organization and structuring interface
+### Details:
+Implement interface for organizing, prioritizing, and structuring action items into a coherent plan using ShadcN UI components and Next.js client components.
+
+## 12.3. Plan Storage and Management [pending]
+### Dependencies: None
+### Description: Implement plan storage and management services
+### Details:
+Create FastAPI services for storing, retrieving, and managing action plans linked to consultation sessions using MCP for database access.
+
+## 12.4. LangGraph Plan Refinement Workflow [pending]
+### Dependencies: None
+### Description: Implement AI-assisted plan refinement with LangGraph
+### Details:
+Create LangGraph workflow for analyzing and refining user-created plans with AI assistance. Implement with LangChain Hub prompts and LangSmith monitoring.
+
